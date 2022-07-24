@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  background-color: #E4F9F5;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0 auto 30px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin-left: 10px;
+}
+
+table{
+  width: 70%;
+  margin: 10px auto 30px auto;
+}
+
+hr {
+  border-style: none;
+  border-color: #30E3CA;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 10%;
+}
+
+ul{
+  margin-left: 0;
+  text-align: left;
+}
+
+  /* unvisited link */
+.hobbies a:link {
+  color: #30E3CA;
+}
+
+/* visited link */
+.hobbies a:visited {
+  color: #30E3CA;
+}
+
+/* mouse over link */
+.hobbies a:hover {
+  color: #11999E;
+}
+
+/* selected link */
+.hobbies a:active {
+  color: #11999E;
+}
+
+.hobbies{
+  margin-left: 5%;
+}
+
+.languages{
+  margin-left: 5%;
+}
+
+.welcome{
+
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  background: #30E3CA ;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  font-style: italic;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  background-color: #11999E;
+}
+
+.top-container{
+  background-color: #30E3CA;
+  color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+}
+
+
+.mid-container{
+  background-color: #E4F9F5;
+  height: 30px;
+
+}
+
+.bot-container{
+  color: #40514E;
+  background-color: #E4F9F5;
+  font-size: 0.6rem;
+  text-align: left;
+  bottom: 0px;
+  height: 30px;
+  font-style: italic;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  transform: translateX(-70%);
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 250px;
+  transform: translateX(-70%);
+}
+
+.educ{
+  text-align: left;
+  margin-left: 27%;
+}
+
+.skills{
+  margin-left: 25%;
+  padding: 5px;
+  width: 100px;
+}
+
+.container {
+  text-align: left;
+  margin: 0;
+  padding: 1px;
+  width: 500%;
+  background-color: lightgray;
+}
+
+.python{
+  margin: 0;
+  width: 90%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+.sql{
+  margin: 0;
+  width: 90%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+.office{
+  margin: 0;
+  width: 85%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+.html{
+  margin: 0;
+  width: 65%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+.css{
+  margin: 0;
+  width: 65%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+.java{
+  margin: 0;
+  width: 40%;
+  background-color: #30E3CA;
+  text-align: left;
+}
+
+span{
+  font-size: 55%;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+span:before{
+  content: ' ';
+  width: 100%;
+  height: 2rem;
+  display: inline-block;
+}
